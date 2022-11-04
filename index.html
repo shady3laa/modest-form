@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="master.css" />
+    <title>cat-reloaded</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">Cat-reloaded</div>
+      <form action="#">
+        <div class="content">
+          <div class="box">
+            <label for="fname">First name:</label><br />
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="Enter your first name"
+            /><br />
+          </div>
+          <div class="box">
+            <label for="lname">Last name:</label><br />
+            <input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Enter your Last name"
+            />
+          </div>
+          <div class="box">
+            <label for="email"> Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+         
+        <div class="box">
+          <label for="age">Age:</label>
+          <input type="number" />
+        </div>
+        <div class="box">
+            <label for="select">Gender:</label>
+            <select name="select">
+              <option value="none" selected>Gender</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">other</option>
+            </select>
+        </div>
+          <label class="message " for="message">message</label>
+          <textarea name="message" id="" cols="100" rows="10"></textarea>
+        </div>
+        <input class="submit" type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
